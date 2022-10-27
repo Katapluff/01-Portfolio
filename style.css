@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+/* 888888888888888888888888888888888888888 */
+/* +++++++++++++++Oben+++++++++++++++++++ */
+/* 888888888888888888888888888888888888888 */
+::-webkit-scrollbar { scroll-behavior: smooth; } 
+
+.logo {
+  background-color: rgb(2, 5, 22);
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+
+/* 888888888888888888888888888888888888888 */
+/* +++++++++++++++Navbar+++++++++++++++++++ */
+/* 888888888888888888888888888888888888888 */
+
+.nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  float: none;
+  text-align: center;
+   width: 100%;
+  z-index: 1;
+  background-color: rgba(180, 244, 244, 0.25);
+}
+
+/* 888888888888888888888888888888888888888 */
+/* +++++++++++++++Container+++++++++++++++++++ */
+/* 888888888888888888888888888888888888888 */
+
+.container {
+   min-height: 60vh;
+    background-color: rgb(27, 198, 233);
+}
+
+.row img {
+  object-fit: cover;
+  width: 80%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.text1 {
+  color: yellowgreen;
+  font-size: 50px;
+}
+/* 888888888888888888888888888888888888888 */
+/* +++++++++++++++Footer+++++++++++++++++++ */
+/* 888888888888888888888888888888888888888 */
+.card-body {
+  background-image: url(./Bilder/girl-1980131_640.jpg);
+  height: 400px;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+.card-title {
+  color: aliceblue;
+}
+.card-text {
+  color: rgb(255, 0, 8);
+  font-size: 23px;
+}
+
+.girl {
+  width: 100vw;
+  height: 500px;
+}
+
+.kontakt {
+  width: 50%;
+  padding-left: 10px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%; 
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 6px; 
+  resize: vertical; 
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #7177c220;
+  padding: 10px;
+}
+/* 888888888888888888888888888888888888888 */
+/* +++++++++++++++Selected+++++++++++++++++++ */
+/* 888888888888888888888888888888888888888 */
+.auswahl {
+  width: 50%;
+  height: 120px;
+}
+
+/* 888888888888888888888888888888888888888
++++++++++++++++Icons+++++++++++++++++++
+888888888888888888888888888888888888888  */
+.bi-google {
+  background-color: red;
+  color: yellow;
+}
+.icons a {
+  text-decoration: none;
+}
+.bi-virus {
+  color: rgb(241, 152, 50);
+  background-color: greenyellow;
+}
+.bi-incognito {
+  color: rgb(50, 79, 241);
+  background-color: rgb(255, 224, 47);
+}
+
+.bi-emoji-sunglasses-fill {
+  color: rgb(240, 230, 124);
+  background-color: rgba(57, 49, 4, 0.875);
+}
+
+.bi-facebook {
+  color: rgb(240, 141, 124);
+  background-color: black;
+}
+.bi-telegram {
+  color: rgb(188, 37, 234);
+  background-color: rgb(14, 177, 236);
+}
+
+.bi {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  place-items: center;
+  font-size: 30px;
+}
+.footerbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
